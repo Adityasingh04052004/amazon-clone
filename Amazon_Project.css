@@ -43,15 +43,21 @@ font-size: 1rem;
     display: flex;
     background-color:#febd68;
     width: 620px;
-    height: 40px;border-radius: 3px;
+    height: 40px;
+    border-radius: 3px;
 }
 .nav_search:hover{
     border: 2px solid #febd68;
 }
 .select{
-    background-color: #f3f3f3;
+    /* background-color: #f3f3f3; */
     width: 50px;
     text-align: center;
+    border-radius: 3px;
+    border: none;
+    background-color:#febd68a1;
+    color: white;
+    font-weight: bold;
 }
 .search-inp{
       width: 100%;
@@ -85,6 +91,7 @@ span{
     color: white;
     text-align: center;
     justify-content: space-evenly;
+    align-items: center;
 }
 .panel-all{
     margin-left: 0px;
@@ -123,20 +130,28 @@ span{
 .hero-msg a
 {
     color: #007185;
+    
 
 }
 .shop-sec{
     display: flex;
     flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  gap: 15px;
   background-color:#e2e7e6;
+  padding: 15px 0px;
+  justify-content: center;
+  
 }
 .box{
-    border: 2px solid;
+     /* border: 2px solid rgba(40, 40, 40, 0.614);  */
+    border-radius: 5px;
     height: 400px;
     width: 23%;
     background-color: white;
    padding: 20px 0px 15px;
+   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.2);
+   
 }
 .b1-img{
     height: 300px;
@@ -154,7 +169,7 @@ margin-bottom: 1rem ;
     color: #007185;
 }
 footer{
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .foot-panel1{
     background-color: #37475a;
@@ -171,6 +186,7 @@ color: white;
 height: 300px;
 display: flex;
 justify-content: space-evenly;
+align-items: center;
 }
 ul a{
     display: block;
@@ -196,6 +212,7 @@ ul a{
     background-color: #0f1111;
     color: white;
     height: 80px;
+    padding-top: 40px;
 }
 .pages{
     font-size: .7rem;
